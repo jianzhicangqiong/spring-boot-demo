@@ -11,6 +11,7 @@
     <modules>
         <module>demo-knife4j</module>
         <module>demo-common</module>
+        <module>demo-data-jpa</module>
     </modules>
     <packaging>pom</packaging>
 
