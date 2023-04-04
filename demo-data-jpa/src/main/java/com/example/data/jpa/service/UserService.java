@@ -1,6 +1,6 @@
-package com.example.jpa.service;
+package com.example.data.jpa.service;
 
-import com.example.jpa.vo.UserVO;
+import com.example.data.jpa.vo.UserVO;
 
 import java.util.List;
 

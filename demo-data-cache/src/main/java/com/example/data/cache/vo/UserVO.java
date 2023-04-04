@@ -1,6 +1,5 @@
-package com.example.jpa.vo;
+package com.example.data.cache.vo;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,16 +15,10 @@ import java.util.stream.LongStream;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity     //标注为JPA实体类
-@Table(name = "user")   //数据库表名称
 public class UserVO {
 
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column(name = "username")
     private String username;
 
     private int age;
@@ -33,6 +26,10 @@ public class UserVO {
 
     public static UserVO create() {
         long id = new Random().nextLong(30);
+        return UserVO.builder().id(id).username("user-" + id).age((int) id).build();
+    }
+
+    public static UserVO create(long id) {
         return UserVO.builder().id(id).username("user-" + id).age((int) id).build();
     }
 

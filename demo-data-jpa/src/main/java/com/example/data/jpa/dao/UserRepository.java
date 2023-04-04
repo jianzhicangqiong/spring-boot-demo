@@ -1,7 +1,7 @@
-package com.example.jpa.dao;
+package com.example.data.jpa.dao;
 
 
-import com.example.jpa.vo.UserVO;
+import com.example.data.jpa.vo.UserVO;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,7 +1,7 @@
-package com.example.jpa.service;
+package com.example.data.jpa.service;
 
-import com.example.jpa.dao.UserRepository;
-import com.example.jpa.vo.UserVO;
+import com.example.data.jpa.dao.UserRepository;
+import com.example.data.jpa.vo.UserVO;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;

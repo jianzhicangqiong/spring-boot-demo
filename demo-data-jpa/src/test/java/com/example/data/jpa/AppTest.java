@@ -1,10 +1,10 @@
-package com.example.jpa;
+package com.example.data.jpa;
 
 
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONWriter;
-import com.example.jpa.service.UserService;
-import com.example.jpa.vo.UserVO;
+import com.example.data.jpa.service.UserService;
+import com.example.data.jpa.vo.UserVO;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
